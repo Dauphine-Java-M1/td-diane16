@@ -71,7 +71,7 @@ public class PrimeCollection
         
     	PrimeCollection prime=new PrimeCollection();
     	
-        prime.initRamdom(100,1000);
+        prime.initRamdom(100,2000);
         
        // System.out.println(prime.isPrime(3));
         
