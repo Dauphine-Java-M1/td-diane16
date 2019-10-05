@@ -1,0 +1,31 @@
+FOKOUA
+
+td00:
+
+1-Quel version de maven est installé dans votre machine: version 3.6
+2-le repertoire target contient 3 autres repertoire a savoir: 
+  classes
+  generated-sources
+  maven-status
+3-un class path permet de préciser au compilateur et à la JVM(java virtual machine) où elle peut trouver les classes requises par l'application
+4-maven.compiler.target permet de spécifier la version du compileur java utilisée pour compiler les target.
+  comme valeur associé, je dirais 1.7
+
+exercice 2:
+1-en insérant les commandes: java -jar target/nom-du-jar, le message "aucun attribut manifeste principal dans target/nom-du-jar" s'affiche.
+
+exercice 3:
+1- si on tape sysout et on tape Crtl + Espace, sysout devient  "System.out.println();"
+2- en tapant toStr ensuite Crtl + Espace, aucun proposition par defaut n'est faite
+3- en tapant main puis Crtl + Espace, la methode main par defaut se forme.
+4- si on tape get puis Crtl + Espace, la méthode getter se forme. de meme pour set
+5- quand on selection le nom de la classe et le champ toto parla suite, puis Alt + Shift + R la fonction rename apparait
+
+td00 bis:
+
+exercice1:
+1- en tapant git diff on observe les ligne du code modifié(celui avant en (-) et celui d'aprés en (+))
+
+
+
+
