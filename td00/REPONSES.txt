@@ -31,5 +31,12 @@ exercice1:
  
 test2
 
+exercice 2:
+1- en modifiant le fichier REPONSES.txt du fichier original et en faissant un push, le depot des modification n'est pas possible
+pour resoudre ce probleme il se doit de faire un pull du code contenu dans le git afin d'ajournée le fichier original et de là il sera posssible de faire un push.
+
+
+
+
 
 
