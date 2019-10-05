@@ -25,7 +25,9 @@ td00 bis:
 
 exercice1:
 1- en tapant git diff on observe les ligne du code modifié(celui avant en (-) et celui d'aprés en (+))
-
+2- gitk represente le fait que les deux dépots son synchronisés à l'aide d'un dashboard contenant les differente action fait du moment ou j'ai effectué mon 1er commite.
+ 
+test2
 
 
 
