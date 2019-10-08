@@ -1,5 +1,6 @@
 package fr.dauphine.ja.fokouadiane.shapes;
 
+import java.util.ArrayList;
 
 public class App 
 {
@@ -20,6 +21,15 @@ public class App
         
         System.out.println(p1==p2);
         System.out.println(p1==p3);
+        System.out.println(p1.isSameAs(p3));
+        
+        ArrayList<Point> list = new ArrayList<>();
+        list.add(p1);
+        p1.equals(p3);    
+        System.out.println(list.indexOf(p2));
+        System.out.println(list.indexOf(p3));
+        
+        
     }
    
 }

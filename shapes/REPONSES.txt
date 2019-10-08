@@ -18,3 +18,16 @@ pour remedier à ce probléme on peut opter pour l'utilisation des getters et se
 
 8- le compilateur sert quel constructeur utiliser sur la base des parametres passés.
 
+exercice 2:
+
+1- le code affiche
+  true -> car objet p1 créé précédement a directement été affecté à p2
+  false -> car un nuovel objet a été créé avec les meme caractéristique que p1 puis affecte à p3, certe meme ayant les meme caracteirstique, celui peut etre situe dans un autre espace memoire du coup le hashcode dans ce cas diffère
+
+2- La méthode indexOf() renvoie le premier indice pour lequel on trouve un élément donné dans un tableau. Si l'élément cherché n'est pas présent dans le tableau, la méthode renverra -1.  
+   donc p3 n'est pas contenu dans le tableau.
+   
+   
+   
+   
+  

@@ -38,6 +38,28 @@ public class Point {
 		return "(" + x + "," + y + ")";
 	}
 
+    public boolean isSameAs (Point p){
+    	
+    	if(this.x == p.x && this.y==p.y) {
+    		
+    	  return true;
+    	}
+    	
+		return false;  
+   }
+
+	@Override
+	public boolean equals(Object obj) {
+		if(this == obj) return true;
+		if(!(obj instanceof Point)) return false;
+		Point point = (Point) obj;	
+		return this.x==point.getX() && this.y==point.getY();
+	}
+    
+    
+
+
+
 
 
 
