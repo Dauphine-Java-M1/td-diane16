@@ -1,0 +1,20 @@
+shapes
+
+exercixe1:
+
+1- on as une erreur de compilation car les variables x et y definient dans la classe Point sont de type private.
+
+2-avec la création d'une classe TestPoint contenant le main, on observe aucune erreur car les variable privé sont contenu dans la meme classe.
+pour remedier à ce probléme on peut opter pour l'utilisation des getters et setters
+
+3- les champs d'une classe doivent toujours etre privé afin d'eviter des modifications du code de la part d'un utilisateur exterieur.
+
+4- un accesseur = getter (permet de recuperer la valeur d'une variable definit privé dans une classe.
+  dans ce cas de figure il se doit de l'utiliser
+  
+5-la creation d'un nouvelle objet de type Point relève une erreur. ceci car pour declarer la creation d'un nouvelle objet il faut egalement tiendre compte des paramétre car le constructeur n'est plus definit par défaut.
+
+7- on peut créer une methode qui compte a chaque point créer
+
+8- le compilateur sert quel constructeur utiliser sur la base des parametres passés.
+
