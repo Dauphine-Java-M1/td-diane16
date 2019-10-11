@@ -33,7 +33,7 @@ exercice 3:
 
 2-en ajoutant null dans le tableau celui est inseré mais il apparait une erreur à l'execution du programme de ce fait la fonction contains n'est pas fonctionelle
 
-
+6-en utilisant les Linkedlist on peut ajouter des points au milieu d'une liste ,par defaut indexé au debut, donc pas besoin de donner une dimension, donc pointCapacite et nbPoint sera implemanté par des methode prédéfinit des linkedList.	
 
    
    
