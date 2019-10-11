@@ -27,6 +27,14 @@ exercice 2:
 2- La méthode indexOf() renvoie le premier indice pour lequel on trouve un élément donné dans un tableau. Si l'élément cherché n'est pas présent dans le tableau, la méthode renverra -1.  
    donc p3 n'est pas contenu dans le tableau.
    
+exercice 3:
+
+1-si on dépasse la capacité fixé alors les points en surplus s'affiche. on devrait redefinir la methode add afin de limiter le nombre d'accés.
+
+2-en ajoutant null dans le tableau celui est inseré mais il apparait une erreur à l'execution du programme de ce fait la fonction contains n'est pas fonctionelle
+
+
+
    
    
    

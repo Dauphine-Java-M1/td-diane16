@@ -29,6 +29,20 @@ public class App
         System.out.println(list.indexOf(p2));
         System.out.println(list.indexOf(p3));
         
+        System.out.println("---------------------------------------------------------------------------");
+        
+        LigneBrisee l = new LigneBrisee(2);
+        Point p4=new Point(5,2);
+        //l.add(null);
+        l.add(p);
+        l.add(p4);
+        l.add(p4);
+        
+        System.out.println(l.contains(p));
+        
+        
+        
+       
         
     }
    
