@@ -37,13 +37,9 @@ public class App
         l.add(p);
         l.add(p4);
         l.add(p4);
-        
-        
+            
         System.out.println(l.contains(p));
-        
-        
-        
-       
+            
         
     }
    

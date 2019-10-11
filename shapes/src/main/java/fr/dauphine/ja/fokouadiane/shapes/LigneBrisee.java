@@ -61,7 +61,6 @@ public class LigneBrisee {
 	    	return true;
 	    }
 	    
-		
 		/*for(Point pt : points) {
 		
 		if(pt.equals(p)){
@@ -73,7 +72,7 @@ public class LigneBrisee {
 		
 		return false;
 		
-	}
+	 }
 	
 
 }
