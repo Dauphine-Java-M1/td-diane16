@@ -4,6 +4,8 @@ public class Point {
 	
 	private int x;
 	private int y;
+	private int x1;
+	private int y1;
 	public static int t=0;
 	public int count;
 	
@@ -56,6 +58,15 @@ public class Point {
 		return this.x==point.getX() && this.y==point.getY();
 	}
     
-    
+    public Point translate(int dx, int dy) {   //vecteur de translation
+    	
+        x1 = this.x + dx;
+        y1 = this.y + dy;
+        
+        Point p = new Point(x1,y1);
+        
+		return p;
+  
+    }
 
 }

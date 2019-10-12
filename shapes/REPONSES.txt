@@ -36,6 +36,17 @@ exercice 3:
 6-en utilisant les Linkedlist on peut ajouter des points au milieu d'une liste ,par defaut indexé au debut, donc pas besoin de donner une dimension, donc pointCapacite et nbPoint sera implementé par des methodes prédéfinits de linkedList.	
 
 
+Exercice 4:
+
+1-les differente signature de la methode translate(dx, dy)
+  public Point translate(int dx, int dy)
+  public void translate(int dx, int dy)
+ 
+6- en faissant c.getCenter().translate(1,1); la fonction translate ne fonctionne pas car cette methode est plutot appelé par la classe Point
+
+
+  
+  
    
    
    
