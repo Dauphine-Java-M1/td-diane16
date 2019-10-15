@@ -5,7 +5,9 @@ public class Circle {
 	
 	private Point centre;
 	private int rayon;
+	private double newRayon;
 	private double surface;
+
 	
 	public Circle(Point centre, int rayon) {
 		
@@ -39,7 +41,9 @@ public class Circle {
 	
 	public boolean contains(Point p) {
 		
-	    if(contains(p)) {
+		this.newRayon = Math.sqrt((Math.pow((this.centre.getX() - p.getX()),2))+(Math.pow((this.centre.getY() - p.getY()),2)));
+		
+	    if(this.newRayon < this.rayon) {
 	   
 	    	return true;
 	    }
@@ -47,6 +51,18 @@ public class Circle {
 		return false;
 		
 	 }
+	
+	public static boolean contains(Point p, Circle...circles) {
+		
+		for(Circle c: circles) {
+		if(c.contains(p)) {
+			
+			return true;
+		 }
+		
+		}
+		return false;
+	}
     	
 	
 

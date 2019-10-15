@@ -45,9 +45,23 @@ Exercice 4:
 6- en faissant c.getCenter().translate(1,1); la fonction translate ne fonctionne pas car cette methode est plutot appelé par la classe Point
 
 
+9 doit-on faire une methode static ?: oui
+static permet d'appeler une fonction sans avoir besoin d'instancier la classe dans une variable.
+pouvoir faire :
+taclasse.fonction();
+
+au lieu de :
+taclasse f = new taclasse();
+f.fonction();
   
-  
    
    
-   
+exercice 5:
+
+1-l'héritage dans ce cas de figure est interessant car la formation d'un anneau d'ecoule de celle d'un cercle
+
+2- losque on faite System.out.println(ring) on obtient l'affiche de la classe circle
+
+
+
   

@@ -51,10 +51,25 @@ public class App
         
         System.out.println(c+" "+c2);   // question pas compris
         
-        Circle c3=new Circle(new Point(1,2), 1);
+        Circle c3=new Circle(new Point(1,2), 5);
        // c3.getCentre().translate(1,1);
         c3.translate(1,1);
         System.out.println(c3);
+        Point p5=new Point(2,4);
+       
+        System.out.println(c3.contains(p));
+        
+        Ring ring = new Ring(p,2, 3);
+        
+        System.out.println(ring);
+        
+        
+        System.out.println(ring.contains(p2));
+        
+        
+        
+        
+        
         
     }
    
