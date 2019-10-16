@@ -8,16 +8,16 @@ public class App
     {
     	
     	
-        Point p = new Point(1, 2);
+        Point p = new Point(0,0);
         Point point = new Point(p);
         //System.out.println(p1.count);
         System.out.println(point);   // la variable tostring aprés etre declarer s'affiche directement meme sans etre appelé pas objet.
         
         System.out.println("----------------------------------------------------------------------------------------");
         
-        Point p1=new Point(10,2);
+        Point p1=new Point(2,1);
         Point p2=p1;
-        Point p3=new Point(10,2);
+        Point p3=new Point(2,1);
         
         System.out.println(p1==p2);
         System.out.println(p1==p3);
@@ -59,7 +59,7 @@ public class App
        
         System.out.println(c3.contains(p));
         
-        Ring ring = new Ring(p,2, 3);
+        Ring ring = new Ring(p,3,1);
         
         System.out.println(ring);
         

@@ -26,13 +26,33 @@ public class Circle {
     
       
       this.centre = this.centre.translate(dx, dy); 	
+      // return new Circle (this.centre.translate(dx, dy),rayon);
+      
      
     }
 
 	public Point getCentre() {
-		return centre;
+		return this.centre;
 	}
 	
+	
+	
+	public int getRayon() {
+		return rayon;
+	}
+
+	public void setRayon(int rayon) {
+		this.rayon = rayon;
+	}
+
+	public double getNewRayon() {
+		return newRayon;
+	}
+
+	public void setNewRayon(double newRayon) {
+		this.newRayon = newRayon;
+	}
+
 	public double surface() {
 		
 		return surface = ((Math.pow(this.rayon,2))* Math.PI);
