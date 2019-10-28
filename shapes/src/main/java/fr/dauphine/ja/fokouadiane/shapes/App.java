@@ -2,9 +2,14 @@ package fr.dauphine.ja.fokouadiane.shapes;
 
 import java.util.ArrayList;
 
+import fr.dauphine.ja.fokouadiane.model.Circle;
+import fr.dauphine.ja.fokouadiane.model.LigneBrisee;
+import fr.dauphine.ja.fokouadiane.model.Point;
+import fr.dauphine.ja.fokouadiane.model.Ring;
+
 public class App 
 {
-    public static void main( String[] args )
+  /*  public static void main( String[] args )
     {
     	
     	
@@ -71,6 +76,6 @@ public class App
         
         
         
-    }
+    }*/
    
 }

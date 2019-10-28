@@ -1,4 +1,4 @@
-package fr.dauphine.ja.fokouadiane.shapes;
+package fr.dauphine.ja.fokouadiane.model;
 
 public class Ring extends Circle {
 	

@@ -1,7 +1,6 @@
-package fr.dauphine.ja.fokouadiane.shapes;
+package fr.dauphine.ja.fokouadiane.model;
 
-
-public class Circle {
+public class Circle extends Shape{
 	
 	private Point centre;
 	private int rayon;
@@ -22,11 +21,12 @@ public class Circle {
 	}
 	
     
-    public void translate(int dx, int dy) {   //vecteur de translation
+    public Shape translate(int dx, int dy) {   //vecteur de translation
     
       
       this.centre = this.centre.translate(dx, dy); 	
-      // return new Circle (this.centre.translate(dx, dy),rayon);
+      return new Circle (this.centre.translate(dx, dy),rayon);
+	
       
      
     }

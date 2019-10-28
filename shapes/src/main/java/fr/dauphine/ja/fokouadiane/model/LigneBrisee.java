@@ -1,4 +1,4 @@
-package fr.dauphine.ja.fokouadiane.shapes;
+package fr.dauphine.ja.fokouadiane.model;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

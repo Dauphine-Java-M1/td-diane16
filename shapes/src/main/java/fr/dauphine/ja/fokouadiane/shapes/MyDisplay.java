@@ -1,4 +1,4 @@
-package view;
+package fr.dauphine.ja.fokouadiane.shapes;
 
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -34,7 +34,7 @@ public class MyDisplay extends JPanel {
 	    frame.getContentPane().add(jp);  // fonction d'affichage
 	    
 	    
-		
+	
 	 }
 
 }
