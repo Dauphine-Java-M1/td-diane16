@@ -1,0 +1,67 @@
+shapes
+
+exercixe1:
+
+1- on as une erreur de compilation car les variables x et y definient dans la classe Point sont de type private.
+
+2-avec la création d'une classe TestPoint contenant le main, on observe aucune erreur car les variable privé sont contenu dans la meme classe.
+pour remedier à ce probléme on peut opter pour l'utilisation des getters et setters
+
+3- les champs d'une classe doivent toujours etre privé afin d'eviter des modifications du code de la part d'un utilisateur exterieur.
+
+4- un accesseur = getter (permet de recuperer la valeur d'une variable definit privé dans une classe.
+  dans ce cas de figure il se doit de l'utiliser
+  
+5-la creation d'un nouvelle objet de type Point relève une erreur. ceci car pour declarer la creation d'un nouvelle objet il faut egalement tiendre compte des paramétre car le constructeur n'est plus definit par défaut.
+
+7- on peut créer une methode qui compte a chaque point créer
+
+8- le compilateur sert quel constructeur utiliser sur la base des parametres passés.
+
+exercice 2:
+
+1- le code affiche
+  true -> car objet p1 créé précédement a directement été affecté à p2
+  false -> car un nuovel objet a été créé avec les meme caractéristique que p1 puis affecte à p3, certe meme ayant les meme caracteirstique, celui peut etre situe dans un autre espace memoire du coup le hashcode dans ce cas diffère
+
+2- La méthode indexOf() renvoie le premier indice pour lequel on trouve un élément donné dans un tableau. Si l'élément cherché n'est pas présent dans le tableau, la méthode renverra -1.  
+   donc p3 n'est pas contenu dans le tableau.
+   
+exercice 3:
+
+1-si on dépasse la capacité fixé alors les points en surplus s'affiche. on devrait redefinir la methode add afin de limiter le nombre d'accés.
+
+2-en ajoutant null dans le tableau celui est inseré mais il apparait une erreur à l'execution du programme de ce fait la fonction contains n'est pas fonctionelle
+
+6-en utilisant les Linkedlist on peut ajouter des points au milieu d'une liste ,par defaut indexé au debut, donc pas besoin de donner une dimension, donc pointCapacite et nbPoint sera implementé par des methodes prédéfinits de linkedList.	
+
+
+Exercice 4:
+
+1-les differente signature de la methode translate(dx, dy)
+  public Point translate(int dx, int dy)
+  public void translate(int dx, int dy)
+ 
+6- en faissant c.getCenter().translate(1,1); la fonction translate ne fonctionne pas car cette methode est plutot appelé par la classe Point
+
+
+9 doit-on faire une methode static ?: oui
+static permet d'appeler une fonction sans avoir besoin d'instancier la classe dans une variable.
+pouvoir faire :
+taclasse.fonction();
+
+au lieu de :
+taclasse f = new taclasse();
+f.fonction();
+  
+   
+   
+exercice 5:
+
+1-l'héritage dans ce cas de figure est interessant car la formation d'un anneau d'ecoule de celle d'un cercle
+
+2- losque on faite System.out.println(ring) on obtient l'affiche de la classe circle
+
+
+
+  

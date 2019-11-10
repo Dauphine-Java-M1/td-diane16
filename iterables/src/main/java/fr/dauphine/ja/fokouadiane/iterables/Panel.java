@@ -1,10 +1,13 @@
 package fr.dauphine.ja.fokouadiane.iterables;
 
+
+import java.util.AbstractList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.NoSuchElementException;
 
 
-public class Panel 
+public class Panel
 {
 	
 	
@@ -46,6 +49,30 @@ public class Panel
 		} ;
 	}
 	
+
+
+	
+	
+	private static AbstractList <Integer> panel(final int i, final int j) {
+    	
+		return new AbstractList<Integer>(){
+
+			@Override
+			public Integer get(int index) {
+				// TODO Auto-generated method stub
+				return index+i;
+			}
+
+			@Override
+			public int size() {
+				// TODO Auto-generated method stub
+				return (j-i)+1;
+			}
+			
+		
+		} ;
+	}
+	
 	
     public static void main( String[] args )
     {
@@ -58,8 +85,24 @@ public class Panel
         
         for(int i:panel2(1,5))
         	System.out.println(i); // affiche 1 2 3 4 5
+        
+        System.out.println("------------------------------------------------------------------------------");
+        
+        
+        List<Integer> l = panel(3,6);
+        
+        for(int i:l) {
+        System.out.println(i);    //affiche 3 4 5 6
+        
+        }
+        
+        System.out.println("------------------------------------------------------------------------------");
+        
+        System.out.println(l.get(1)); //affiche 4
+        
     }
 
+	
 
 
 
