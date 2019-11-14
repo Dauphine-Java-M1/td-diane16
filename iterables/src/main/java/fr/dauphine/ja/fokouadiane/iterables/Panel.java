@@ -2,7 +2,9 @@ package fr.dauphine.ja.fokouadiane.iterables;
 
 
 import java.util.AbstractList;
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -24,6 +26,7 @@ public class Panel
 				
                 
 			}
+			
 			@Override
 			public Integer next() {
 				
@@ -62,7 +65,7 @@ public class Panel
 				// TODO Auto-generated method stub
 				return index+i;
 			}
-
+			
 			@Override
 			public int size() {
 				// TODO Auto-generated method stub
@@ -74,6 +77,7 @@ public class Panel
 	}
 	
 	
+		
     public static void main( String[] args )
     {
     	Iterator<Integer> it=panel1(1,5);
@@ -100,6 +104,47 @@ public class Panel
         
         System.out.println(l.get(1)); //affiche 4
         
+        System.out.println("------------------------------------------------------------------------------");
+        
+    
+        LinkedList<Integer> list = new LinkedList<>();
+       
+        for (int i =3; i < 10; i++) {
+        list.add(i);
+        }
+       
+        List<Integer> re = Mult.mult(2, list);
+       
+        System.out.println(re);
+        
+        
+        
+        
+        System.out.println("------------------------------------------------------------------------------");
+              
+        
+        ArrayList<Integer> al = new ArrayList<>();
+        for (int i = 0; i < 1000000; i++) {
+        al.add(i);
+        }
+        long t0 = System.nanoTime();
+        List<Integer> ret = Mult.mult(2, al);
+        long sum=0;
+        for(int val : ret) {
+        sum+=val/2;
+        }
+        System.out.println((System.nanoTime() - t0));
+        LinkedList<Integer> ll = new LinkedList<>();
+        for (int i = 0; i < 1000000; i++) {
+        ll.add(i);
+        }
+        t0 = System.nanoTime();
+        sum=0;
+        ret = Mult.mult(2, ll);
+        for(int val : ret) {
+        sum+=val/2;
+        }
+        System.out.println((System.nanoTime() - t0));
     }
 
 	
